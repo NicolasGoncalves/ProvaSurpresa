@@ -1,24 +1,24 @@
 import './index.scss'
 
-export  default function Home(){
-    return(
-        <main>
-            <header>
-                <h1> Prova surpresa do Bruninho</h1>
+export default function Home() {
+    return (
+        <main className='main-home'>
+            <header className='header-home'>
+                <h1 className='h1-home'> Prova surpresa do Bruninho</h1>
             </header>
 
-            <section>
+            <section className='section-home'>
 
-                <a href="/acai">
-                    <button> Vendas de Açaí </button>
+                <a className='a-home' href="/acai">
+                    <button className='button-home'> Vendas de Açaí </button>
                 </a>
 
-                <a href="/signo">
-                    <button> Signo </button>
+                <a className='a-home' href="/signo">
+                    <button className='button-home'> Signo </button>
                 </a>
 
-                <a href="/sorveteria">
-                    <button> sorveteria </button>
+                <a className='a-home' href="/sorveteria">
+                    <button className='button-home'> sorveteria </button>
                 </a>
 
             </section>
