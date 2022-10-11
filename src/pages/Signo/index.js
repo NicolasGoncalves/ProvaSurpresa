@@ -1,6 +1,6 @@
 import './index.scss'
 
-import signos from "../../funcoes/Signos/index.js"
+import signos from "../../services/Signos/index.js"
 import { useState, useEffect } from 'react'
 
 export default function Signo() {

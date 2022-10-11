@@ -21,6 +21,18 @@ export default function Home() {
                     <button className='button-home'> sorveteria </button>
                 </a>
 
+                <a className='a-home' href="/salarioliquido">
+                    <button className='button-home'> Salário Liquido </button>
+                </a>
+
+                <a className='a-home' href="/paradas">
+                    <button className='button-home'> Quantidade de paradas </button>
+                </a>
+
+                <a className='a-home' href="/febre">
+                    <button className='button-home'> Verificar febre </button>
+                </a>
+
             </section>
         </main>
     )

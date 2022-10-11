@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react"
 import "./index.scss"
 
-import acai from '../../funcoes/Acai/index.js'
+import acai from '../../services/Acai/index.js'
 
 export default function VendasAcai() {
     const [qtdp,setQtdp] = useState (0);

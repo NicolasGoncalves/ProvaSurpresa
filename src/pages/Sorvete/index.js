@@ -1,7 +1,7 @@
 import { useState ,useEffect} from 'react'
 import './index.scss'
 
-import sorvetinho from '../../funcoes/Sorvete/index.js'
+import sorvetinho from '../../services/Sorvete/index.js'
 
 export default function Sorvete(){
     const [gramas,setGramas]=useState();
