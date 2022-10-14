@@ -28,7 +28,7 @@ export default function Febre() {
         <main>
             <header>
                 <h1>
-                    Febre
+                    6. Febre
                 </h1>
             </header>
 

@@ -25,7 +25,7 @@ export default function Signo() {
     return (
         <main>
             <header>
-                <h1>Signos</h1>
+                <h1>2. Signos</h1>
             </header>
 
             <section>

@@ -27,7 +27,7 @@ export default function Sorvete(){
     return(
         <main>
             <header>
-                <h1> Sorveteria</h1>
+                <h1>3. Sorveteria</h1>
             </header>
 
             <section>

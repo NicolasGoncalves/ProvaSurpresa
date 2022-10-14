@@ -27,7 +27,7 @@ export default function Viajar() {
     return (
         <main>
             <header>
-                <h1>Calcular Paradas</h1>
+                <h1>5. Calcular Paradas</h1>
             </header>
 
             <section>

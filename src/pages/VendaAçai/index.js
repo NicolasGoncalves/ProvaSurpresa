@@ -29,7 +29,7 @@ export default function VendasAcai() {
     return(
         <main>
             <header>
-                    <h1> VENDAS AÇAÍ </h1>
+                    <h1>1. VENDAS AÇAÍ </h1>
             </header>
 
             <section> 

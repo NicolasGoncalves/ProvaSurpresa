@@ -9,6 +9,8 @@ import Sorvete from './pages/Sorvete';
 import SalarioLiquid from './pages/SalarioLiquid';
 import Viajar from './pages/viagem';
 import Febre from './pages/febre' ;
+import Orçamento from './pages/OrcamentoFamiliar';
+import Cinema from './pages/cinema'
 import Home from './pages/home';
 
 
@@ -17,13 +19,15 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>        
-        <Route path='/' element={<Home/>}/>
-        <Route path='/acai' element={<VendasAcai/>}/>
-        <Route  path='/signo' element={<Signo/>}/>
-        <Route  path='/sorveteria' element={<Sorvete/>}/>
-        <Route  path='/salarioliquido' element={<SalarioLiquid/>}/>
-        <Route  path='/paradas' element={<Viajar/>}/>
-        <Route  path='/febre' element={<Febre/>}/>
+        <Route path='/' element={<Home/>}                             />
+        <Route path='/acai' element={<VendasAcai/>}                   />
+        <Route  path='/signo' element={<Signo/>}                      />
+        <Route  path='/sorveteria' element={<Sorvete/>}               />
+        <Route  path='/salarioliquido' element={<SalarioLiquid/>}     />
+        <Route  path='/paradas' element={<Viajar/>}                   />
+        <Route  path='/febre' element={<Febre/>}                      />
+        <Route path='/orcamentoFamiliar' element={<Orçamento/>}       />
+        <Route  path='/cinema' element={<Cinema/>}                    />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
