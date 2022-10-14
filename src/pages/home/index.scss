@@ -2,14 +2,19 @@
     display: flex;
     flex-direction: column;
 
+    border: 10px solid #a80d94;
+
     .header-home {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .h1-home {
-
+        color: #a80d94;
+        
+        font-family: 'verdana' ;
     }
 
     .section-home {
@@ -19,11 +24,24 @@
     }
 
     .a-home {
-
+        height: 5em;
+        
     }
 
     .button-home {
         
+        border: 10px;
+        border-radius: 1em;
+
+        height: 2rem;
+        padding: 1rem;
+        padding-bottom: 2em;
+        margin: 1.5rem;
+
+        background-color: #a80d94;
+        color: #f1870d;
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     
