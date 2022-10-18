@@ -11,7 +11,12 @@ import Viajar from './pages/viagem';
 import Febre from './pages/febre' ;
 import Orçamento from './pages/OrcamentoFamiliar';
 import Cinema from './pages/cinema'
+import Numerinho from './pages/contador';
+import Linhazinha from './pages/Linha';
+import Retangulozinho from './pages/Retangulo';
 import Home from './pages/home';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +33,9 @@ root.render(
         <Route  path='/febre' element={<Febre/>}                      />
         <Route path='/orcamentoFamiliar' element={<Orçamento/>}       />
         <Route  path='/cinema' element={<Cinema/>}                    />
+        <Route  path='/contador' element={<Numerinho/>}               />
+        <Route  path='/linha' element={<Linhazinha/>}                 />
+        <Route  path='/retangulo' element={<Retangulozinho/>}         />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
