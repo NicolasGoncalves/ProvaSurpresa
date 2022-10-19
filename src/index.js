@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter ,Route ,Routes} from 'react-router-dom';
 import './index.css';
 
-import VendasAcai from './pages/VendaAçai';
-import Signo from './pages/Signo';
-import Sorvete from './pages/Sorvete';
-import SalarioLiquid from './pages/SalarioLiquid';
-import Viajar from './pages/viagem';
-import Febre from './pages/febre' ;
-import Orçamento from './pages/OrcamentoFamiliar';
-import Cinema from './pages/cinema'
-import Numerinho from './pages/contador';
-import Linhazinha from './pages/Linha';
-import Retangulozinho from './pages/Retangulo';
-import Home from './pages/home';
-
+import Home from './pages/0.home';
+import VendasAcai from './pages/1.VendaAçai';
+import Signo from './pages/2.Signo';
+import Sorvete from './pages/3.Sorvete';
+import SalarioLiquid from './pages/4.SalarioLiquid';
+import Viajar from './pages/5.viagem';
+import Febre from './pages/6.febre' ;
+import Orçamento from './pages/7.OrcamentoFamiliar';
+import Cinema from './pages/8.cinema'
+import Numerinho from './pages/9.contador';
+import Linhazinha from './pages/10.Linha';
+import Retangulozinho from './pages/11.Retangulo';
+import Cafezinho from './pages/12.CafeProf';
 
 
 
@@ -36,6 +36,7 @@ root.render(
         <Route  path='/contador' element={<Numerinho/>}               />
         <Route  path='/linha' element={<Linhazinha/>}                 />
         <Route  path='/retangulo' element={<Retangulozinho/>}         />
+        <Route  path='/cafezinho' element={<Cafezinho/>}              />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
