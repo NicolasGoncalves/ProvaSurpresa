@@ -17,6 +17,8 @@ import Linhazinha from './pages/10.Linha';
 import Retangulozinho from './pages/11.Retangulo';
 import Cafezinho from './pages/12.CafeProf';
 import Financiazinha from './pages/13.Financas';
+import Escola from './pages/14.Escola';
+
 
 
 
@@ -39,6 +41,7 @@ root.render(
         <Route  path='/retangulo' element={<Retangulozinho/>}         />
         <Route  path='/cafezinho' element={<Cafezinho/>}              />
         <Route  path='/financa' element={<Financiazinha/>}          />
+        <Route  path='/escola' element={<Escola/>}          />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

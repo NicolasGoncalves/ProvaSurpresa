@@ -8,6 +8,9 @@ export default function Retangulozinho(){
     const [altura,setAltura]=useState(0);
     const [resposta,setResposta]=useState([]);
 
+
+    
+
     function desenhar(){
         try {
             const r=DesenharRetangulo(base,altura);

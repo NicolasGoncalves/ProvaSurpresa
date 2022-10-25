@@ -61,6 +61,10 @@ export default function Home() {
                     <button className='button-home'> 13. Financiamento</button>
                 </a>
 
+                <a className='a-home' href="/escola">
+                    <button className='button-home'> 14. escola </button>
+                </a>
+
                 
 
             </section>
